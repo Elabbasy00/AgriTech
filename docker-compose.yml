@@ -31,8 +31,8 @@ services:
       context: .
       dockerfile: ./docker/nginx/Dockerfile
     ports:
-      - 8080:80
-      - 8443:443
+      - 80:80
+      - 443:443
     volumes:
       - static_volume:/app/backend/staticfiles
       - static_image:/app/backend/media
