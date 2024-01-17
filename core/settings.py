@@ -24,6 +24,8 @@ ALLOWED_HOSTS = [
     config("SERVER", default="localhost"),
     "10.239.181.28",
     "0.0.0.0",
+    "agritech-jo.com",
+    "www.agritech-jo.com",
 ]
 
 # Application definition
